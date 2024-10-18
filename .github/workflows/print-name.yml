@@ -1,0 +1,8 @@
+name: print-name
+on: push
+jobs:
+  print-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo text
+        run: echo "this is my name"
